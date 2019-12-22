@@ -1,5 +1,5 @@
 from app import app
-import db from db
+from db import db
 
 db.init_app(app)
 
